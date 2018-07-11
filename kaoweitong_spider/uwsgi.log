@@ -1,0 +1,2967 @@
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x26e3aa0 pid: 5279 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5279)
+spawned uWSGI worker 1 (pid: 5281, cores: 2)
+spawned uWSGI worker 2 (pid: 5282, cores: 2)
+spawned uWSGI worker 3 (pid: 5284, cores: 2)
+spawned uWSGI worker 4 (pid: 5285, cores: 2)
+Not Found: /
+[pid: 5285|app: 0|req: 1/1] 172.246.107.202 () {38 vars in 576 bytes} [Sat Apr 28 15:15:41 2018] HEAD / => generated 2551 bytes in 212 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 2/2] 115.231.233.96 () {38 vars in 574 bytes} [Sat Apr 28 19:15:04 2018] HEAD / => generated 2551 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5285|app: 0|req: 3/3] 118.190.145.15 () {38 vars in 575 bytes} [Sun Apr 29 00:55:52 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 4/4] 106.11.225.40 () {40 vars in 639 bytes} [Sun Apr 29 02:24:38 2018] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5285|app: 0|req: 5/5] 221.7.195.67 () {36 vars in 477 bytes} [Sun Apr 29 03:16:11 2018] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 6/6] 111.44.137.197 () {36 vars in 476 bytes} [Sun Apr 29 03:16:11 2018] GET / => generated 2544 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5285|app: 0|req: 7/7] 61.159.249.202 () {36 vars in 482 bytes} [Sun Apr 29 03:16:11 2018] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 8/8] 117.88.242.117 () {36 vars in 478 bytes} [Sun Apr 29 03:16:11 2018] GET / => generated 2546 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5285|app: 0|req: 9/9] 14.204.114.209 () {36 vars in 477 bytes} [Sun Apr 29 03:16:11 2018] GET / => generated 2545 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5282|app: 0|req: 1/10] 122.96.29.193 () {36 vars in 476 bytes} [Sun Apr 29 03:16:11 2018] GET / => generated 2545 bytes in 210 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 10/11] 106.45.1.253 () {36 vars in 473 bytes} [Sun Apr 29 03:16:18 2018] GET / => generated 2543 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5282|app: 0|req: 2/12] 122.114.160.189 () {38 vars in 576 bytes} [Sun Apr 29 10:12:58 2018] HEAD / => generated 2551 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /manager/html
+[pid: 5285|app: 0|req: 11/13] 183.25.126.168 () {36 vars in 492 bytes} [Sun Apr 29 14:58:22 2018] GET /manager/html => generated 2604 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 12/14] 1.206.4.142 () {38 vars in 572 bytes} [Sun Apr 29 15:04:53 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5282|app: 0|req: 3/15] 183.57.54.43 () {26 vars in 278 bytes} [Sun Apr 29 19:29:17 2018] GET / => generated 2545 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 13/16] 106.11.225.160 () {40 vars in 641 bytes} [Mon Apr 30 03:43:16 2018] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 14/17] 172.246.107.202 () {38 vars in 576 bytes} [Mon Apr 30 05:04:35 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5285|app: 0|req: 15/18] 122.114.160.189 () {38 vars in 576 bytes} [Mon Apr 30 05:09:09 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 16/19] 118.190.145.15 () {38 vars in 575 bytes} [Mon Apr 30 08:11:26 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5285|app: 0|req: 17/20] 203.90.231.50 () {38 vars in 574 bytes} [Mon Apr 30 09:20:34 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 18/21] 122.114.160.189 () {38 vars in 576 bytes} [Mon Apr 30 14:18:29 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5285|app: 0|req: 19/22] 106.11.226.5 () {40 vars in 639 bytes} [Tue May  1 03:53:57 2018] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 20/23] 222.184.112.248 () {38 vars in 576 bytes} [Tue May  1 09:09:29 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5282|app: 0|req: 4/24] 183.57.54.43 () {26 vars in 278 bytes} [Tue May  1 17:48:27 2018] GET / => generated 2545 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 21/25] 118.190.145.15 () {38 vars in 575 bytes} [Tue May  1 23:10:55 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 22/26] 14.29.50.219 () {38 vars in 573 bytes} [Wed May  2 00:26:38 2018] HEAD / => generated 2551 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5285|app: 0|req: 23/27] 106.11.225.153 () {40 vars in 641 bytes} [Wed May  2 05:53:32 2018] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /skins/vector/csshover.htc
+[pid: 5285|app: 0|req: 24/28] 101.226.35.225 () {44 vars in 758 bytes} [Wed May  2 05:56:16 2018] GET /skins/vector/csshover.htc => generated 2643 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /rockmongo/
+[pid: 5285|app: 0|req: 25/29] 101.226.35.225 () {44 vars in 728 bytes} [Wed May  2 05:56:21 2018] GET /rockmongo/ => generated 2598 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /server-status
+[pid: 5285|app: 0|req: 26/30] 101.226.35.225 () {44 vars in 734 bytes} [Wed May  2 05:56:21 2018] GET /server-status => generated 2607 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /wikilib.d/PmWiki.ChangeLog
+[pid: 5285|app: 0|req: 27/31] 101.226.35.225 () {44 vars in 760 bytes} [Wed May  2 05:56:22 2018] GET /wikilib.d/PmWiki.ChangeLog => generated 2646 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /4e5e5d7364f443e28fbf0d3ae744a59a
+[pid: 5285|app: 0|req: 28/32] 101.226.35.225 () {44 vars in 772 bytes} [Wed May  2 05:56:22 2018] GET /4e5e5d7364f443e28fbf0d3ae744a59a => generated 2664 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /jenkins/
+[pid: 5282|app: 0|req: 5/33] 101.226.35.225 () {44 vars in 724 bytes} [Wed May  2 05:56:22 2018] GET /jenkins/ => generated 2592 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /console/login/LoginForm.jsp
+[pid: 5282|app: 0|req: 6/34] 101.226.35.225 () {44 vars in 762 bytes} [Wed May  2 05:56:22 2018] GET /console/login/LoginForm.jsp => generated 2649 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /solr/
+[pid: 5285|app: 0|req: 29/35] 101.226.35.225 () {44 vars in 718 bytes} [Wed May  2 05:56:23 2018] GET /solr/ => generated 2583 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 5285|app: 0|req: 30/36] 101.226.35.225 () {44 vars in 708 bytes} [Wed May  2 05:56:23 2018] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5282|app: 0|req: 7/37] 101.226.35.225 () {36 vars in 436 bytes} [Wed May  2 05:56:23 2018] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /weixin/
+[pid: 5282|app: 0|req: 8/38] 120.27.211.131 () {38 vars in 619 bytes} [Wed May  2 07:37:36 2018] POST /weixin/ => generated 2587 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+haha
+[pid: 5285|app: 0|req: 31/39] 221.221.96.12 () {40 vars in 543 bytes} [Wed May  2 07:37:47 2018] GET /index/ => generated 4 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Wed May  2 07:38:38 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:38:38 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:38:38 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:38:38 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:38:38 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:38:38 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:38:38 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:38:38 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 15:38:50 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1628ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1628ad0 pid: 10138 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10138)
+spawned uWSGI worker 1 (pid: 10140, cores: 2)
+spawned uWSGI worker 2 (pid: 10141, cores: 2)
+spawned uWSGI worker 3 (pid: 10143, cores: 2)
+spawned uWSGI worker 4 (pid: 10144, cores: 2)
+正在检验账号密码是否正确
+[pid: 10144|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 756 bytes} [Wed May  2 07:39:28 2018] POST /weixin/ => generated 36 bytes in 244 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+正在检验账号密码是否正确
+[pid: 10143|app: 0|req: 1/2] 221.221.96.12 () {44 vars in 756 bytes} [Wed May  2 07:41:24 2018] POST /weixin/ => generated 36 bytes in 242 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+Wed May  2 07:42:34 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:42:34 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:42:34 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:42:34 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:42:34 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:42:34 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:42:34 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:42:34 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 15:42:35 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0xa80ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa80ad0 pid: 10344 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10344)
+spawned uWSGI worker 1 (pid: 10346, cores: 2)
+spawned uWSGI worker 2 (pid: 10347, cores: 2)
+spawned uWSGI worker 3 (pid: 10348, cores: 2)
+spawned uWSGI worker 4 (pid: 10350, cores: 2)
+正在检验账号密码是否正确
+[pid: 10350|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 756 bytes} [Wed May  2 07:42:38 2018] POST /weixin/ => generated 36 bytes in 245 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+Wed May  2 07:43:36 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:43:36 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:43:36 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:43:36 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:43:36 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:43:36 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:43:36 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:43:36 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 15:43:39 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x15b4ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x15b4ad0 pid: 10413 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10413)
+spawned uWSGI worker 1 (pid: 10415, cores: 2)
+spawned uWSGI worker 2 (pid: 10416, cores: 2)
+spawned uWSGI worker 3 (pid: 10418, cores: 2)
+spawned uWSGI worker 4 (pid: 10419, cores: 2)
+111
+[pid: 10416|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 756 bytes} [Wed May  2 07:43:42 2018] POST /weixin/ => generated 7 bytes in 212 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+{"d":"d"}
+[pid: 10416|app: 0|req: 2/2] 221.221.96.12 () {44 vars in 756 bytes} [Wed May  2 07:48:18 2018] POST /weixin/ => generated 7 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Wed May  2 07:59:32 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:59:32 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:59:32 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:59:32 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:59:32 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:59:32 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:59:32 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 07:59:32 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 15:59:34 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1792ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1792ad0 pid: 11143 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11143)
+spawned uWSGI worker 1 (pid: 11145, cores: 2)
+spawned uWSGI worker 2 (pid: 11146, cores: 2)
+spawned uWSGI worker 3 (pid: 11148, cores: 2)
+spawned uWSGI worker 4 (pid: 11149, cores: 2)
+None
+[pid: 11148|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 756 bytes} [Wed May  2 07:59:39 2018] POST /weixin/ => generated 7 bytes in 211 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[ll,kk]
+[pid: 11149|app: 0|req: 1/2] 221.221.96.12 () {44 vars in 756 bytes} [Wed May  2 08:03:39 2018] POST /weixin/ => generated 7 bytes in 208 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+None
+[pid: 11149|app: 0|req: 2/3] 120.27.211.131 () {38 vars in 619 bytes} [Wed May  2 08:14:05 2018] POST /weixin/ => generated 7 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+None
+[pid: 11149|app: 0|req: 3/4] 120.27.211.131 () {36 vars in 590 bytes} [Wed May  2 08:14:05 2018] POST /weixin/ => generated 7 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+None
+[pid: 11149|app: 0|req: 4/5] 120.27.211.131 () {36 vars in 590 bytes} [Wed May  2 08:14:05 2018] POST /weixin/ => generated 7 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+None
+[pid: 11149|app: 0|req: 5/6] 120.27.211.131 () {36 vars in 587 bytes} [Wed May  2 08:14:06 2018] POST /weixin/ => generated 7 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Not Found: /solr
+[pid: 11149|app: 0|req: 6/7] 112.90.82.218 () {38 vars in 635 bytes} [Wed May  2 08:41:39 2018] GET /solr => generated 2734 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 11149|app: 0|req: 7/8] 119.28.64.244 () {38 vars in 574 bytes} [Wed May  2 09:50:58 2018] HEAD / => generated 2705 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+None
+[pid: 11149|app: 0|req: 8/9] 121.41.99.110 () {46 vars in 787 bytes} [Wed May  2 10:09:43 2018] POST /weixin/ => generated 7 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Wed May  2 10:51:45 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:51:45 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:51:45 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:51:45 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:51:45 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:51:45 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:51:45 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:51:45 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 18:51:47 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x2857ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2857ad0 pid: 18964 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18964)
+spawned uWSGI worker 1 (pid: 18966, cores: 2)
+spawned uWSGI worker 2 (pid: 18967, cores: 2)
+spawned uWSGI worker 3 (pid: 18969, cores: 2)
+spawned uWSGI worker 4 (pid: 18970, cores: 2)
+Internal Server Error: /robotmass/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/user/local/python3/lib/python3.6/site-packages/django/urls/resolvers.py", line 494, in resolve
+    for pattern in self.url_patterns:
+  File "/user/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/user/local/python3/lib/python3.6/site-packages/django/urls/resolvers.py", line 536, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/user/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/user/local/python3/lib/python3.6/site-packages/django/urls/resolvers.py", line 529, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/user/local/python3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./kaoweitong_spider/urls.py", line 22, in <module>
+    path('', include('kaoweitongapp.urls')),
+  File "/user/local/python3/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/user/local/python3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./kaoweitongapp/urls.py", line 2, in <module>
+    from . import views
+  File "./kaoweitongapp/views.py", line 279
+    if group == "数学"：
+                    ^
+SyntaxError: invalid character in identifier
+[pid: 18970|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 762 bytes} [Wed May  2 10:52:31 2018] POST /robotmass/ => generated 135172 bytes in 68 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
+Wed May  2 10:54:34 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:54:34 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:54:34 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:54:34 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:54:34 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:54:34 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:54:34 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:54:34 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 18:54:35 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1980ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1980ad0 pid: 19108 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19108)
+spawned uWSGI worker 1 (pid: 19110, cores: 2)
+spawned uWSGI worker 2 (pid: 19111, cores: 2)
+spawned uWSGI worker 3 (pid: 19113, cores: 2)
+spawned uWSGI worker 4 (pid: 19114, cores: 2)
+Internal Server Error: /robotmass/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 276, in robotmass
+    group = request.POST("group")
+TypeError: 'QueryDict' object is not callable
+[pid: 19114|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 762 bytes} [Wed May  2 10:54:38 2018] POST /robotmass/ => generated 57334 bytes in 237 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Wed May  2 10:56:53 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:56:53 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:56:53 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:56:53 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:56:53 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:56:53 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:56:53 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:56:53 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 18:56:54 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1793ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1793ad0 pid: 19221 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19221)
+spawned uWSGI worker 1 (pid: 19224, cores: 2)
+spawned uWSGI worker 2 (pid: 19225, cores: 2)
+spawned uWSGI worker 3 (pid: 19227, cores: 2)
+spawned uWSGI worker 4 (pid: 19228, cores: 2)
+Internal Server Error: /robotmass/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 280, in robotmass
+    for vcChatRoomSerialNo in vcChatRoomSerialNo_list:
+NameError: name 'vcChatRoomSerialNo_list' is not defined
+[pid: 19228|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 762 bytes} [Wed May  2 10:57:00 2018] POST /robotmass/ => generated 58080 bytes in 247 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Wed May  2 10:58:19 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:58:19 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:58:19 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:58:19 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:58:19 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:58:19 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:58:19 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 10:58:19 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 18:58:21 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1fd0ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fd0ad0 pid: 19312 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19312)
+spawned uWSGI worker 1 (pid: 19314, cores: 2)
+spawned uWSGI worker 2 (pid: 19315, cores: 2)
+spawned uWSGI worker 3 (pid: 19317, cores: 2)
+spawned uWSGI worker 4 (pid: 19318, cores: 2)
+FA86A90266577732245C6B2AF3467207{"nResult":"1","vcResult":"成功", "Data":[{}]}
+B03FF8EAEEFC063355EED5D2ADA564D4{"nResult":"1","vcResult":"成功", "Data":[{}]}
+[pid: 19317|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 762 bytes} [Wed May  2 10:58:24 2018] POST /robotmass/ => generated 2 bytes in 659 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+FA86A90266577732245C6B2AF3467207{"nResult":"1","vcResult":"成功", "Data":[{}]}
+B03FF8EAEEFC063355EED5D2ADA564D4{"nResult":"1","vcResult":"成功", "Data":[{}]}
+[pid: 19315|app: 0|req: 1/2] 221.221.96.12 () {44 vars in 762 bytes} [Wed May  2 10:59:55 2018] POST /robotmass/ => generated 2 bytes in 423 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Wed May  2 11:01:57 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 11:01:57 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 11:01:57 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 11:01:57 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 11:01:57 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 11:01:57 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 11:01:57 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed May  2 11:01:57 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Wed May  2 19:01:59 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1b9cad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1b9cad0 pid: 19495 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19495)
+spawned uWSGI worker 1 (pid: 19497, cores: 2)
+spawned uWSGI worker 2 (pid: 19498, cores: 2)
+spawned uWSGI worker 3 (pid: 19500, cores: 2)
+spawned uWSGI worker 4 (pid: 19501, cores: 2)
+FA86A90266577732245C6B2AF3467207{"nResult":"1","vcResult":"成功", "Data":[{}]}
+B03FF8EAEEFC063355EED5D2ADA564D4{"nResult":"1","vcResult":"成功", "Data":[{}]}
+[pid: 19501|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 762 bytes} [Wed May  2 11:02:05 2018] POST /robotmass/ => generated 2 bytes in 465 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+FA86A90266577732245C6B2AF3467207<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<title>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>·þÎñÆ÷´íÎó</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</h2>
+  <h3>ÄúÒª²éÕÒµÄ×ÊÔ´¿ÉÄÜÒÑ±»É¾³ý£¬ÒÑ¸ü¸ÄÃû³Æ»òÕßÔÝÊ±²»¿ÉÓÃ¡£</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+
+B03FF8EAEEFC063355EED5D2ADA564D4<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<title>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>·þÎñÆ÷´íÎó</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</h2>
+  <h3>ÄúÒª²éÕÒµÄ×ÊÔ´¿ÉÄÜÒÑ±»É¾³ý£¬ÒÑ¸ü¸ÄÃû³Æ»òÕßÔÝÊ±²»¿ÉÓÃ¡£</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+
+[pid: 19501|app: 0|req: 2/2] 221.221.96.12 () {44 vars in 764 bytes} [Wed May  2 11:03:50 2018] POST /robotmass/ => generated 2 bytes in 144 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+FA86A90266577732245C6B2AF3467207<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<title>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>·þÎñÆ÷´íÎó</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</h2>
+  <h3>ÄúÒª²éÕÒµÄ×ÊÔ´¿ÉÄÜÒÑ±»É¾³ý£¬ÒÑ¸ü¸ÄÃû³Æ»òÕßÔÝÊ±²»¿ÉÓÃ¡£</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+
+B03FF8EAEEFC063355EED5D2ADA564D4<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<title>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>·þÎñÆ÷´íÎó</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</h2>
+  <h3>ÄúÒª²éÕÒµÄ×ÊÔ´¿ÉÄÜÒÑ±»É¾³ý£¬ÒÑ¸ü¸ÄÃû³Æ»òÕßÔÝÊ±²»¿ÉÓÃ¡£</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+
+[pid: 19501|app: 0|req: 3/3] 221.221.96.12 () {44 vars in 764 bytes} [Wed May  2 11:04:55 2018] POST /robotmass/ => generated 2 bytes in 199 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+FA86A90266577732245C6B2AF3467207<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<title>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>·þÎñÆ÷´íÎó</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</h2>
+  <h3>ÄúÒª²éÕÒµÄ×ÊÔ´¿ÉÄÜÒÑ±»É¾³ý£¬ÒÑ¸ü¸ÄÃû³Æ»òÕßÔÝÊ±²»¿ÉÓÃ¡£</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+
+B03FF8EAEEFC063355EED5D2ADA564D4<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<title>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>·þÎñÆ÷´íÎó</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>404 - ÕÒ²»µ½ÎÄ¼þ»òÄ¿Â¼¡£</h2>
+  <h3>ÄúÒª²éÕÒµÄ×ÊÔ´¿ÉÄÜÒÑ±»É¾³ý£¬ÒÑ¸ü¸ÄÃû³Æ»òÕßÔÝÊ±²»¿ÉÓÃ¡£</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+
+[pid: 19501|app: 0|req: 4/4] 221.221.96.12 () {44 vars in 764 bytes} [Wed May  2 11:05:06 2018] POST /robotmass/ => generated 2 bytes in 118 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+FA86A90266577732245C6B2AF3467207{"nResult":"1","vcResult":"成功", "Data":[{}]}
+B03FF8EAEEFC063355EED5D2ADA564D4{"nResult":"1","vcResult":"成功", "Data":[{}]}
+[pid: 19501|app: 0|req: 5/5] 221.221.96.12 () {44 vars in 762 bytes} [Wed May  2 11:05:18 2018] POST /robotmass/ => generated 2 bytes in 188 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+FA86A90266577732245C6B2AF3467207{"nResult":"1","vcResult":"成功", "Data":[{}]}
+B03FF8EAEEFC063355EED5D2ADA564D4{"nResult":"1","vcResult":"成功", "Data":[{}]}
+[pid: 19501|app: 0|req: 6/6] 221.221.96.12 () {44 vars in 762 bytes} [Wed May  2 11:06:14 2018] POST /robotmass/ => generated 2 bytes in 194 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Not Found: /
+[pid: 19501|app: 0|req: 7/7] 101.24.127.104 () {36 vars in 477 bytes} [Wed May  2 15:26:40 2018] GET / => generated 2856 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 19501|app: 0|req: 8/8] 1.28.91.59 () {36 vars in 471 bytes} [Wed May  2 15:26:47 2018] GET / => generated 2854 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 19501|app: 0|req: 9/9] 114.221.127.184 () {36 vars in 478 bytes} [Wed May  2 15:26:47 2018] GET / => generated 2856 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 19497|app: 0|req: 1/10] 112.66.96.215 () {36 vars in 478 bytes} [Wed May  2 15:26:47 2018] GET / => generated 2858 bytes in 237 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 19498|app: 0|req: 1/11] 117.159.9.9 () {36 vars in 475 bytes} [Wed May  2 15:26:47 2018] GET / => generated 2857 bytes in 307 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+Not Found: /
+[pid: 19500|app: 0|req: 2/12] 221.11.231.128 () {36 vars in 481 bytes} [Wed May  2 15:26:47 2018] GET / => generated 2861 bytes in 352 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 19500|app: 0|req: 2/13] 113.128.105.41 () {36 vars in 476 bytes} [Wed May  2 15:26:47 2018] GET / => generated 2855 bytes in 341 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+None
+[pid: 19501|app: 0|req: 10/14] 120.27.211.131 () {38 vars in 622 bytes} [Thu May  3 01:57:50 2018] POST /weixin/ => generated 7 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 02:08:07 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:08:07 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:08:07 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:08:07 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:08:07 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:08:07 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:08:07 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:08:07 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 10:08:15 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x2812aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2812aa0 pid: 27987 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27987)
+spawned uWSGI worker 1 (pid: 27989, cores: 2)
+spawned uWSGI worker 2 (pid: 27990, cores: 2)
+spawned uWSGI worker 3 (pid: 27992, cores: 2)
+spawned uWSGI worker 4 (pid: 27993, cores: 2)
+<QueryDict: {'Data': ['ddd']}>
+[pid: 27993|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 756 bytes} [Thu May  3 02:10:11 2018] POST /weixin/ => generated 7 bytes in 210 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+<QueryDict: {'strContext': ['{"vcMerchantNo":"201805021010006","vcChatRoomSerialNo":"FA86A90266577732245C6B2AF3467207","vcChatRoomId":"5394588458@chatroom","vcChatRoomName":"实验群","vcChatAdminWxUserSerialNo":"DF239828A70A83AC7CF0E1B6CCE2B3F2","vcChatAdminWxId":"wxid_tspz4e7c7wnr22","vcRobotSerialNo":"DF239828A70A83AC7CF0E1B6CCE2B3F2","nMemberCount":"7", "Data":[{"ChatRoomUserData": [{"vcSerialNo":"0D71190260F0FE31D33A0A23B89DFC42","vcWeixinId":"Liuxinweitt","vcNickName":"L-","vcBase64NickName":"TC0=","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 15:12:30"},{"vcSerialNo":"C393C00CF4D56F79FD992E4F787CFD9E","vcWeixinId":"wxid_dh9ooz28rukq22","vcNickName":"TD课代表.","vcBase64NickName":"VETor77ku6Pooagu","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/7LdlRWHWhXqr8pS1eN80nxG02rA91cMFNvLUaGTWXeiactq8iakOW1PICNr3VRJDicy47w8CaofaF1eSvCeo9OVTSn0xbSTPqAsLicrSmzt4Wag/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"187F5236325EC671C8AE1BBF7FECF76E","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 15:12:30"},{"vcSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","vcWeixinId":"wxid_m6cquzbht5bd22","vcNickName":"省油的灯","vcBase64NickName":"55yB5rK555qE54Gv","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/0dFJGnFDiacibqvhGiaqmqOUmRByg6UedSdY6TtsUXn7uwPrXkgXM6JONIChDR0zjDYBVXzrJDJAH9pVAd9GTzCUtMEByrbTK0GQQNWycdBF6s/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 14:43:11"},{"vcSerialNo":"3392CD7D06B87F3988DE2420531D317F","vcWeixinId":"wxid_tnq94x3650z322","vcNickName":"备尘埃","vcBase64NickName":"5aSH5bCY5Z+D","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/yM3c9gQlKdQ4M6Ifv1pIKfsI9KMD2f95IPsTc6S7Hdicicl7ZW0jLiahicDJSvzxzsbeL30J7V6hWk4TickSzVBsuNzyQXHBeXciaCUktQX607kI0/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 18:17:18"},{"vcSerialNo":"DF239828A70A83AC7CF0E1B6CCE2B3F2","vcWeixinId":"wxid_tspz4e7c7wnr22","vcNickName":"TD妞","vcBase64NickName":"VETlpp4=","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/k92CXLVhDAlLMzUficSibFuSv0gpf8lhibJOOskFavx8IDSYC3IxDLgasbLOFObtm4gj9Aial5iadaaIs5YiaP4hoKRgQkRRI4n0NTduApDrRiaag4/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 15:12:30"},{"vcSerialNo":"187F5236325EC671C8AE1BBF7FECF76E","vcWeixinId":"zengdamo","vcNickName":"damo","vcBase64NickName":"ZGFtbw==","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/M9TAIXp082mMtgMBicV1f4JRzaXJWEicvicQagFIpmtXzOmUloQKTuiaexEk3ISA1QNforNsh8TFXXm39UxibLZ7Ssg/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 12:38:03"},{"vcSerialNo":"9F853CAE42CEFA27322920B1257A4580","vcWeixinId":"zhangran694","vcNickName":"渐行渐远渐无书","vcBase64NickName":"5riQ6KGM5riQ6L+c5riQ5peg5Lmm","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/2GNEhWiavicnlF1vvrF2w1icZ7Wbhljf0yUA8oINKlajtzQ4ibsooGNtNM1ibrFBuwUmoDicXYbeX52icIMiaE85yemXdWjdLXUIryw3I2l63UsECqI/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 15:12:30"}]}]}'], 'strSign': ['8181204806dd5b22962d0e5f7afadf0e']}>
+[pid: 27990|app: 0|req: 1/2] 121.41.100.111 () {46 vars in 791 bytes} [Thu May  3 02:11:12 2018] POST /weixin/ => generated 7 bytes in 211 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 02:22:29 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:22:29 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:22:29 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:22:29 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:22:29 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:22:29 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:22:29 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:22:29 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 10:27:35 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0xa51aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa51aa0 pid: 28872 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28872)
+spawned uWSGI worker 1 (pid: 28874, cores: 2)
+spawned uWSGI worker 2 (pid: 28875, cores: 2)
+spawned uWSGI worker 3 (pid: 28877, cores: 2)
+spawned uWSGI worker 4 (pid: 28878, cores: 2)
+{'strContext': '{"vcMerchantNo":"201805021010006","vcChatRoomSerialNo":"FA86A90266577732245C6B2AF3467207","vcChatRoomId":"5394588458@chatroom","vcChatRoomName":"实验群","vcChatAdminWxUserSerialNo":"DF239828A70A83AC7CF0E1B6CCE2B3F2","vcChatAdminWxId":"wxid_tspz4e7c7wnr22","vcRobotSerialNo":"DF239828A70A83AC7CF0E1B6CCE2B3F2","nMemberCount":"7", "Data":[{"ChatRoomUserData": [{"vcSerialNo":"0D71190260F0FE31D33A0A23B89DFC42","vcWeixinId":"Liuxinweitt","vcNickName":"L-","vcBase64NickName":"TC0=","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 15:12:30"},{"vcSerialNo":"C393C00CF4D56F79FD992E4F787CFD9E","vcWeixinId":"wxid_dh9ooz28rukq22","vcNickName":"TD课代表.","vcBase64NickName":"VETor77ku6Pooagu","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/7LdlRWHWhXqr8pS1eN80nxG02rA91cMFNvLUaGTWXeiactq8iakOW1PICNr3VRJDicy47w8CaofaF1eSvCeo9OVTSn0xbSTPqAsLicrSmzt4Wag/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"187F5236325EC671C8AE1BBF7FECF76E","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 15:12:30"},{"vcSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","vcWeixinId":"wxid_m6cquzbht5bd22","vcNickName":"省油的灯","vcBase64NickName":"55yB5rK555qE54Gv","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/0dFJGnFDiacibqvhGiaqmqOUmRByg6UedSdY6TtsUXn7uwPrXkgXM6JONIChDR0zjDYBVXzrJDJAH9pVAd9GTzCUtMEByrbTK0GQQNWycdBF6s/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 14:43:11"},{"vcSerialNo":"3392CD7D06B87F3988DE2420531D317F","vcWeixinId":"wxid_tnq94x3650z322","vcNickName":"备尘埃","vcBase64NickName":"5aSH5bCY5Z+D","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/yM3c9gQlKdQ4M6Ifv1pIKfsI9KMD2f95IPsTc6S7Hdicicl7ZW0jLiahicDJSvzxzsbeL30J7V6hWk4TickSzVBsuNzyQXHBeXciaCUktQX607kI0/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 18:17:18"},{"vcSerialNo":"DF239828A70A83AC7CF0E1B6CCE2B3F2","vcWeixinId":"wxid_tspz4e7c7wnr22","vcNickName":"TD妞","vcBase64NickName":"VETlpp4=","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/k92CXLVhDAlLMzUficSibFuSv0gpf8lhibJOOskFavx8IDSYC3IxDLgasbLOFObtm4gj9Aial5iadaaIs5YiaP4hoKRgQkRRI4n0NTduApDrRiaag4/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 15:12:30"},{"vcSerialNo":"187F5236325EC671C8AE1BBF7FECF76E","vcWeixinId":"zengdamo","vcNickName":"damo","vcBase64NickName":"ZGFtbw==","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/M9TAIXp082mMtgMBicV1f4JRzaXJWEicvicQagFIpmtXzOmUloQKTuiaexEk3ISA1QNforNsh8TFXXm39UxibLZ7Ssg/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 12:38:03"},{"vcSerialNo":"9F853CAE42CEFA27322920B1257A4580","vcWeixinId":"zhangran694","vcNickName":"渐行渐远渐无书","vcBase64NickName":"5riQ6KGM5riQ6L+c5riQ5peg5Lmm","vcHeadImages":"http://wx.qlogo.cn/mmhead/ver_1/2GNEhWiavicnlF1vvrF2w1icZ7Wbhljf0yUA8oINKlajtzQ4ibsooGNtNM1ibrFBuwUmoDicXYbeX52icIMiaE85yemXdWjdLXUIryw3I2l63UsECqI/132","nJoinChatRoomType":"12","vcFatherWxUserSerialNo":"8DFBC045C33A3AAE3C2C77108C1D802A","nMsgCount":"0","dtLastMsgDate":"","dtCreateDate":"2018/5/2 15:12:30"}]}]}', 'strSign': '8181204806dd5b22962d0e5f7afadf0e'}
+[pid: 28875|app: 0|req: 1/1] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 02:27:46 2018] POST /weixin/ => generated 7 bytes in 215 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 02:34:45 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:34:45 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:34:45 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:34:45 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:34:45 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:34:45 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:34:45 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 02:34:45 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 10:34:47 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1357aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1357aa0 pid: 29202 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29202)
+spawned uWSGI worker 1 (pid: 29204, cores: 2)
+spawned uWSGI worker 2 (pid: 29205, cores: 2)
+spawned uWSGI worker 3 (pid: 29207, cores: 2)
+spawned uWSGI worker 4 (pid: 29208, cores: 2)
+[{'ChatRoomUserData': [{'vcSerialNo': '0D71190260F0FE31D33A0A23B89DFC42', 'vcWeixinId': 'Liuxinweitt', 'vcNickName': 'L-', 'vcBase64NickName': 'TC0=', 'vcHeadImages': 'http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132', 'nJoinChatRoomType': '12', 'vcFatherWxUserSerialNo': '8DFBC045C33A3AAE3C2C77108C1D802A', 'nMsgCount': '0', 'dtLastMsgDate': '', 'dtCreateDate': '2018/5/2 15:12:30'}, {'vcSerialNo': 'C393C00CF4D56F79FD992E4F787CFD9E', 'vcWeixinId': 'wxid_dh9ooz28rukq22', 'vcNickName': 'TD课代表.', 'vcBase64NickName': 'VETor77ku6Pooagu', 'vcHeadImages': 'http://wx.qlogo.cn/mmhead/ver_1/7LdlRWHWhXqr8pS1eN80nxG02rA91cMFNvLUaGTWXeiactq8iakOW1PICNr3VRJDicy47w8CaofaF1eSvCeo9OVTSn0xbSTPqAsLicrSmzt4Wag/132', 'nJoinChatRoomType': '12', 'vcFatherWxUserSerialNo': '187F5236325EC671C8AE1BBF7FECF76E', 'nMsgCount': '0', 'dtLastMsgDate': '', 'dtCreateDate': '2018/5/2 15:12:30'}, {'vcSerialNo': '8DFBC045C33A3AAE3C2C77108C1D802A', 'vcWeixinId': 'wxid_m6cquzbht5bd22', 'vcNickName': '省油的灯', 'vcBase64NickName': '55yB5rK555qE54Gv', 'vcHeadImages': 'http://wx.qlogo.cn/mmhead/ver_1/0dFJGnFDiacibqvhGiaqmqOUmRByg6UedSdY6TtsUXn7uwPrXkgXM6JONIChDR0zjDYBVXzrJDJAH9pVAd9GTzCUtMEByrbTK0GQQNWycdBF6s/132', 'nJoinChatRoomType': '12', 'vcFatherWxUserSerialNo': '8DFBC045C33A3AAE3C2C77108C1D802A', 'nMsgCount': '0', 'dtLastMsgDate': '', 'dtCreateDate': '2018/5/2 14:43:11'}, {'vcSerialNo': '3392CD7D06B87F3988DE2420531D317F', 'vcWeixinId': 'wxid_tnq94x3650z322', 'vcNickName': '备尘埃', 'vcBase64NickName': '5aSH5bCY5Z+D', 'vcHeadImages': 'http://wx.qlogo.cn/mmhead/ver_1/yM3c9gQlKdQ4M6Ifv1pIKfsI9KMD2f95IPsTc6S7Hdicicl7ZW0jLiahicDJSvzxzsbeL30J7V6hWk4TickSzVBsuNzyQXHBeXciaCUktQX607kI0/132', 'nJoinChatRoomType': '12', 'vcFatherWxUserSerialNo': '', 'nMsgCount': '0', 'dtLastMsgDate': '', 'dtCreateDate': '2018/5/2 18:17:18'}, {'vcSerialNo': 'DF239828A70A83AC7CF0E1B6CCE2B3F2', 'vcWeixinId': 'wxid_tspz4e7c7wnr22', 'vcNickName': 'TD妞', 'vcBase64NickName': 'VETlpp4=', 'vcHeadImages': 'http://wx.qlogo.cn/mmhead/ver_1/k92CXLVhDAlLMzUficSibFuSv0gpf8lhibJOOskFavx8IDSYC3IxDLgasbLOFObtm4gj9Aial5iadaaIs5YiaP4hoKRgQkRRI4n0NTduApDrRiaag4/132', 'nJoinChatRoomType': '12', 'vcFatherWxUserSerialNo': '8DFBC045C33A3AAE3C2C77108C1D802A', 'nMsgCount': '0', 'dtLastMsgDate': '', 'dtCreateDate': '2018/5/2 15:12:30'}, {'vcSerialNo': '187F5236325EC671C8AE1BBF7FECF76E', 'vcWeixinId': 'zengdamo', 'vcNickName': 'damo', 'vcBase64NickName': 'ZGFtbw==', 'vcHeadImages': 'http://wx.qlogo.cn/mmhead/ver_1/M9TAIXp082mMtgMBicV1f4JRzaXJWEicvicQagFIpmtXzOmUloQKTuiaexEk3ISA1QNforNsh8TFXXm39UxibLZ7Ssg/132', 'nJoinChatRoomType': '12', 'vcFatherWxUserSerialNo': '8DFBC045C33A3AAE3C2C77108C1D802A', 'nMsgCount': '0', 'dtLastMsgDate': '', 'dtCreateDate': '2018/5/2 12:38:03'}, {'vcSerialNo': '9F853CAE42CEFA27322920B1257A4580', 'vcWeixinId': 'zhangran694', 'vcNickName': '渐行渐远渐无书', 'vcBase64NickName': '5riQ6KGM5riQ6L+c5riQ5peg5Lmm', 'vcHeadImages': 'http://wx.qlogo.cn/mmhead/ver_1/2GNEhWiavicnlF1vvrF2w1icZ7Wbhljf0yUA8oINKlajtzQ4ibsooGNtNM1ibrFBuwUmoDicXYbeX52icIMiaE85yemXdWjdLXUIryw3I2l63UsECqI/132', 'nJoinChatRoomType': '12', 'vcFatherWxUserSerialNo': '8DFBC045C33A3AAE3C2C77108C1D802A', 'nMsgCount': '0', 'dtLastMsgDate': '', 'dtCreateDate': '2018/5/2 15:12:30'}]}]
+[pid: 29207|app: 0|req: 1/1] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 02:34:58 2018] POST /weixin/ => generated 7 bytes in 213 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Not Found: /
+[pid: 29208|app: 0|req: 1/2] 222.184.112.248 () {38 vars in 576 bytes} [Thu May  3 03:52:48 2018] HEAD / => generated 2862 bytes in 214 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Thu May  3 03:55:01 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 03:55:01 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 03:55:01 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 03:55:01 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 03:55:01 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 03:55:01 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 03:55:01 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 03:55:01 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 11:55:02 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1d6baa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d6baa0 pid: 338 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 338)
+spawned uWSGI worker 1 (pid: 341, cores: 2)
+spawned uWSGI worker 2 (pid: 342, cores: 2)
+spawned uWSGI worker 3 (pid: 343, cores: 2)
+spawned uWSGI worker 4 (pid: 345, cores: 2)
+Internal Server Error: /kick/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 327, in kick
+    with open("weixinuserinfo.txt","r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'weixinuserinfo.txt'
+[pid: 345|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 03:56:20 2018] POST /kick/ => generated 57924 bytes in 940 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 345|app: 0|req: 2/2] 120.27.211.131 () {46 vars in 791 bytes} [Thu May  3 03:56:25 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 04:09:50 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:09:50 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:09:50 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:09:50 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:09:50 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:09:50 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:09:50 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:09:50 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:09:51 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0xb61aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xb61aa0 pid: 1064 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1064)
+spawned uWSGI worker 1 (pid: 1066, cores: 2)
+spawned uWSGI worker 2 (pid: 1067, cores: 2)
+spawned uWSGI worker 3 (pid: 1069, cores: 2)
+spawned uWSGI worker 4 (pid: 1070, cores: 2)
+Internal Server Error: /kick/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 327, in kick
+    with open("../weixinuserinfo.txt","r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../weixinuserinfo.txt'
+[pid: 1067|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:09:59 2018] POST /kick/ => generated 57939 bytes in 534 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 1070|app: 0|req: 1/2] 120.27.211.131 () {46 vars in 791 bytes} [Thu May  3 04:10:04 2018] POST /weixin/ => generated 2 bytes in 217 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 04:11:05 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:11:05 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:11:05 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:11:05 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:11:05 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:11:05 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:11:05 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:11:05 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:11:06 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x28a0aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x28a0aa0 pid: 1149 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1149)
+spawned uWSGI worker 1 (pid: 1151, cores: 2)
+spawned uWSGI worker 2 (pid: 1152, cores: 2)
+spawned uWSGI worker 3 (pid: 1154, cores: 2)
+spawned uWSGI worker 4 (pid: 1155, cores: 2)
+Internal Server Error: /kick/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view kaoweitongapp.views.kick didn't return an HttpResponse object. It returned None instead.
+[pid: 1154|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:11:11 2018] POST /kick/ => generated 48719 bytes in 526 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 1155|app: 0|req: 1/2] 120.26.131.11 () {46 vars in 790 bytes} [Thu May  3 04:11:13 2018] POST /weixin/ => generated 2 bytes in 207 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 04:13:01 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:13:01 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:13:01 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:13:01 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:13:01 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:13:01 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:13:01 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:13:01 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:13:02 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x2496aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2496aa0 pid: 1248 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1248)
+spawned uWSGI worker 1 (pid: 1250, cores: 2)
+spawned uWSGI worker 2 (pid: 1251, cores: 2)
+spawned uWSGI worker 3 (pid: 1253, cores: 2)
+spawned uWSGI worker 4 (pid: 1254, cores: 2)
+[pid: 1250|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:13:06 2018] POST /kick/ => generated 27 bytes in 579 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 1254|app: 0|req: 1/2] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 04:13:11 2018] POST /weixin/ => generated 2 bytes in 209 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1254|app: 0|req: 2/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:13:43 2018] POST /kick/ => generated 27 bytes in 303 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 1253|app: 0|req: 1/4] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 04:13:44 2018] POST /weixin/ => generated 2 bytes in 214 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 04:17:33 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:17:33 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:17:33 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:17:33 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:17:33 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:17:33 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:17:33 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:17:33 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:17:34 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x21cbaa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21cbaa0 pid: 1460 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1460)
+spawned uWSGI worker 1 (pid: 1462, cores: 2)
+spawned uWSGI worker 2 (pid: 1463, cores: 2)
+spawned uWSGI worker 3 (pid: 1465, cores: 2)
+spawned uWSGI worker 4 (pid: 1466, cores: 2)
+[pid: 1466|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:17:37 2018] POST /kick/ => generated 27 bytes in 497 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 1466|app: 0|req: 2/2] 114.55.236.33 () {46 vars in 790 bytes} [Thu May  3 04:17:42 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 04:20:43 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:20:43 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:20:43 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:20:43 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:20:43 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:20:43 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:20:43 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:20:43 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:20:46 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x236baa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x236baa0 pid: 1623 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1623)
+spawned uWSGI worker 1 (pid: 1625, cores: 2)
+spawned uWSGI worker 2 (pid: 1626, cores: 2)
+spawned uWSGI worker 3 (pid: 1628, cores: 2)
+spawned uWSGI worker 4 (pid: 1629, cores: 2)
+Internal Server Error: /kick/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 332, in kick
+    print(WeixinID)
+NameError: name 'WeixinID' is not defined
+[pid: 1629|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:20:49 2018] POST /kick/ => generated 59021 bytes in 528 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 1629|app: 0|req: 2/2] 120.27.211.131 () {46 vars in 791 bytes} [Thu May  3 04:20:53 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 04:22:01 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:22:01 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:22:01 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:22:01 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:22:01 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:22:01 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:22:01 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:22:01 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:22:06 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x20b7aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20b7aa0 pid: 1707 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1707)
+spawned uWSGI worker 1 (pid: 1709, cores: 2)
+spawned uWSGI worker 2 (pid: 1710, cores: 2)
+spawned uWSGI worker 3 (pid: 1712, cores: 2)
+spawned uWSGI worker 4 (pid: 1713, cores: 2)
+Liuxinweitt
+wxid_m6cquzbht5bd22
+[pid: 1712|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:22:09 2018] POST /kick/ => generated 27 bytes in 523 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 1712|app: 0|req: 2/2] 121.41.100.111 () {46 vars in 791 bytes} [Thu May  3 04:22:11 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 04:24:16 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:24:16 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:24:16 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:24:16 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:24:16 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:24:16 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:24:16 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:24:16 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:24:17 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x2188aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2188aa0 pid: 1813 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1813)
+spawned uWSGI worker 1 (pid: 1816, cores: 2)
+spawned uWSGI worker 2 (pid: 1817, cores: 2)
+spawned uWSGI worker 3 (pid: 1818, cores: 2)
+spawned uWSGI worker 4 (pid: 1820, cores: 2)
+Liuxinweitt
+wxid_m6cquzbht5bd22
+wxid_dh9ooz28rukq22
+wxid_m6cquzbht5bd22
+wxid_m6cquzbht5bd22
+wxid_m6cquzbht5bd22
+[pid: 1820|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:24:20 2018] POST /kick/ => generated 189 bytes in 611 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 1820|app: 0|req: 2/2] 123.57.15.19 () {46 vars in 789 bytes} [Thu May  3 04:24:25 2018] POST /weixin/ => generated 2 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Liuxinweitt
+wxid_m6cquzbht5bd22
+wxid_dh9ooz28rukq22
+wxid_m6cquzbht5bd22
+wxid_m6cquzbht5bd22
+wxid_m6cquzbht5bd22
+[pid: 1818|app: 0|req: 1/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:30:55 2018] POST /kick/ => generated 189 bytes in 588 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 1820|app: 0|req: 3/4] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 04:31:00 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 04:35:37 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:35:37 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:35:37 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:35:37 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:35:37 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:35:37 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:35:37 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:35:37 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:35:38 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x208caa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x208caa0 pid: 2354 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2354)
+spawned uWSGI worker 1 (pid: 2356, cores: 2)
+spawned uWSGI worker 2 (pid: 2357, cores: 2)
+spawned uWSGI worker 3 (pid: 2359, cores: 2)
+spawned uWSGI worker 4 (pid: 2360, cores: 2)
+Liuxinweitt
+wxid_m6cquzbht5bd22
+wxid_dh9ooz28rukq22
+wxid_m6cquzbht5bd22
+wxid_m6cquzbht5bd22
+wxid_m6cquzbht5bd22
+x
+[pid: 2360|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:35:41 2018] POST /kick/ => generated 189 bytes in 676 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2357|app: 0|req: 1/2] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 04:35:46 2018] POST /weixin/ => generated 2 bytes in 209 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 04:36:50 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:36:50 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:36:50 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:36:50 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:36:50 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:36:50 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:36:50 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 04:36:50 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:36:51 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x205baa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x205baa0 pid: 2421 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2421)
+spawned uWSGI worker 1 (pid: 2423, cores: 2)
+spawned uWSGI worker 2 (pid: 2424, cores: 2)
+spawned uWSGI worker 3 (pid: 2425, cores: 2)
+spawned uWSGI worker 4 (pid: 2427, cores: 2)
+Liuxinweitt
+wxid_m6cquzbht5bd22
+wxid_dh9ooz28rukq22
+wxid_m6cquzbht5bd22
+wxid_m6cquzbht5bd22
+wxid_m6cquzbht5bd22
+8DFBC045C33A3AAE3C2C77108C1D802A
+[pid: 2427|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 04:36:54 2018] POST /kick/ => generated 48 bytes in 566 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 2427|app: 0|req: 2/2] 123.57.15.19 () {46 vars in 789 bytes} [Thu May  3 04:36:56 2018] POST /weixin/ => generated 2 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 05:43:45 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:43:45 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:43:45 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:43:45 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:43:45 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:43:45 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:43:45 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:43:45 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 13:43:46 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x284eaa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x284eaa0 pid: 5461 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5461)
+spawned uWSGI worker 1 (pid: 5463, cores: 2)
+spawned uWSGI worker 2 (pid: 5464, cores: 2)
+spawned uWSGI worker 3 (pid: 5465, cores: 2)
+spawned uWSGI worker 4 (pid: 5467, cores: 2)
+Liuxinweitt
+省油的灯
+wxid_dh9ooz28rukq22
+省油的灯
+wxid_tnq94x3650z322
+省油的灯
+wxid_tspz4e7c7wnr22
+省油的灯
+zengdamo
+省油的灯
+zhangran694
+省油的灯
+[pid: 5467|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 05:44:18 2018] POST /kick/ => generated 27 bytes in 493 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 5467|app: 0|req: 2/2] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 05:44:22 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 05:48:34 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:48:34 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:48:34 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:48:34 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:48:34 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:48:34 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:48:34 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 05:48:34 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 13:48:36 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x294eaa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x294eaa0 pid: 5684 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5684)
+spawned uWSGI worker 1 (pid: 5686, cores: 2)
+spawned uWSGI worker 2 (pid: 5687, cores: 2)
+spawned uWSGI worker 3 (pid: 5689, cores: 2)
+spawned uWSGI worker 4 (pid: 5690, cores: 2)
+L-
+省油的灯
+TD课代表.
+省油的灯
+省油的灯
+省油的灯
+8DFBC045C33A3AAE3C2C77108C1D802A
+[pid: 5690|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 05:48:39 2018] POST /kick/ => generated 48 bytes in 606 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 5690|app: 0|req: 2/2] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 05:48:44 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+L-
+省油的灯
+TD课代表.
+省油的灯
+备尘埃
+省油的灯
+TD妞
+省油的灯
+damo
+省油的灯
+渐行渐远渐无书
+省油的灯
+[pid: 5690|app: 0|req: 3/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 05:49:51 2018] POST /kick/ => generated 27 bytes in 293 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 5690|app: 0|req: 4/4] 121.41.100.111 () {46 vars in 791 bytes} [Thu May  3 05:49:52 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+L-
+省油的灯
+TD课代表.
+省油的灯
+省油的灯
+省油的灯
+8DFBC045C33A3AAE3C2C77108C1D802A
+[pid: 5690|app: 0|req: 5/5] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 05:51:30 2018] POST /kick/ => generated 48 bytes in 357 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 5690|app: 0|req: 6/6] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 05:51:32 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+L-
+L-
+0D71190260F0FE31D33A0A23B89DFC42
+[pid: 5690|app: 0|req: 7/7] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 05:55:08 2018] POST /kick/ => generated 48 bytes in 359 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 5690|app: 0|req: 8/8] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 05:55:12 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+TD课代表.
+L-
+省油的灯
+L-
+备尘埃
+L-
+TD妞
+L-
+damo
+L-
+渐行渐远渐无书
+L-
+[pid: 5690|app: 0|req: 9/9] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 05:56:27 2018] POST /kick/ => generated 27 bytes in 276 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 5690|app: 0|req: 10/10] 123.57.15.19 () {46 vars in 789 bytes} [Thu May  3 05:56:28 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+TD课代表.
+L-
+L-
+L-
+8DFBC045C33A3AAE3C2C77108C1D802A
+[pid: 5690|app: 0|req: 11/11] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 05:57:58 2018] POST /kick/ => generated 48 bytes in 367 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 5690|app: 0|req: 12/12] 123.57.15.19 () {46 vars in 789 bytes} [Thu May  3 05:58:00 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+L-
+L-
+0D71190260F0FE31D33A0A23B89DFC42
+[pid: 5690|app: 0|req: 13/13] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 05:58:47 2018] POST /kick/ => generated 48 bytes in 396 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 5690|app: 0|req: 14/14] 120.26.130.50 () {46 vars in 790 bytes} [Thu May  3 05:58:52 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Not Found: /
+[pid: 5690|app: 0|req: 15/15] 106.11.227.162 () {40 vars in 641 bytes} [Thu May  3 06:05:18 2018] GET / => generated 3010 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+FA86A90266577732245C6B2AF3467207{"nResult":"1","vcResult":"成功", "Data":[{}]}
+B03FF8EAEEFC063355EED5D2ADA564D4{"nResult":"1","vcResult":"成功", "Data":[{}]}
+[pid: 5690|app: 0|req: 16/16] 221.221.96.12 () {44 vars in 762 bytes} [Thu May  3 06:24:31 2018] POST /robotmass/ => generated 2 bytes in 178 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 07:04:47 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:04:47 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:04:47 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:04:47 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:04:47 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:04:47 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:04:47 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:04:47 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 15:04:48 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x25bdaa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x25bdaa0 pid: 9138 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9138)
+spawned uWSGI worker 1 (pid: 9140, cores: 2)
+spawned uWSGI worker 2 (pid: 9141, cores: 2)
+spawned uWSGI worker 3 (pid: 9143, cores: 2)
+spawned uWSGI worker 4 (pid: 9144, cores: 2)
+TD课代表.
+L-
+L-
+L-
+Internal Server Error: /kick/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 337, in kick
+    temp_dict[vcSerialNo] = "%s,%s"%(NickName,line.split(",")[2])
+IndexError: list index out of range
+[pid: 9144|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:05:05 2018] POST /kick/ => generated 59239 bytes in 1337 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 9144|app: 0|req: 2/2] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 07:05:09 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 07:09:07 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:09:07 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:09:07 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:09:07 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:09:07 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:09:07 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:09:07 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:09:07 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 15:09:08 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1efaaa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1efaaa0 pid: 9351 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9351)
+spawned uWSGI worker 1 (pid: 9353, cores: 2)
+spawned uWSGI worker 2 (pid: 9354, cores: 2)
+spawned uWSGI worker 3 (pid: 9356, cores: 2)
+spawned uWSGI worker 4 (pid: 9357, cores: 2)
+{}
+[pid: 9356|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:09:11 2018] POST /kick/ => generated 0 bytes in 2328 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 9356|app: 0|req: 2/2] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 07:09:16 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+L-
+L-
+TD课代表.
+L-
+费电的灯
+L-
+备尘埃
+L-
+TD妞
+L-
+damo
+L-
+渐行渐远渐无书
+L-
+{'0D71190260F0FE31D33A0A23B89DFC42': 'L-,http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132'}
+[pid: 9357|app: 0|req: 1/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:13:39 2018] POST /kick/ => generated 48 bytes in 2368 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 9357|app: 0|req: 2/4] 114.55.236.33 () {46 vars in 790 bytes} [Thu May  3 07:13:44 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 9357|app: 0|req: 4/5] 123.57.15.19 () {46 vars in 789 bytes} [Thu May  3 07:15:48 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+TD课代表.
+L-
+L-
+L-
+备尘埃
+L-
+TD妞
+L-
+damo
+L-
+渐行渐远渐无书
+L-
+{'8DFBC045C33A3AAE3C2C77108C1D802A': 'L-,http://wx.qlogo.cn/mmhead/ver_1/Bw7riaxxpRiaAsDicn0qia7d7avQIzDCJMQvtABVS90DyoWngGGeDTvyciaeeyETxBEy0qMnu5ag9MXZ1YD4dsJrOY3jTYvhichtiaWaCAPYiayzI1M/96'}
+[pid: 9357|app: 0|req: 4/6] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:15:47 2018] POST /kick/ => generated 48 bytes in 2146 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+TD课代表.
+L-
+L-
+L-
+备尘埃
+L-
+TD妞
+L-
+damo
+L-
+渐行渐远渐无书
+L-
+{'8DFBC045C33A3AAE3C2C77108C1D802A': 'L-,http://wx.qlogo.cn/mmhead/ver_1/Bw7riaxxpRiaAsDicn0qia7d7avQIzDCJMQvtABVS90DyoWngGGeDTvyciaeeyETxBEy0qMnu5ag9MXZ1YD4dsJrOY3jTYvhichtiaWaCAPYiayzI1M/96'}
+[pid: 9357|app: 0|req: 5/7] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:24:20 2018] POST /kick/ => generated 48 bytes in 2180 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 9357|app: 0|req: 6/8] 114.55.236.33 () {46 vars in 790 bytes} [Thu May  3 07:24:24 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 07:26:20 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:26:20 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:26:20 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:26:20 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:26:20 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:26:20 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:26:20 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:26:20 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 15:26:21 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x2a12aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2a12aa0 pid: 16926 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16926)
+spawned uWSGI worker 1 (pid: 16928, cores: 2)
+spawned uWSGI worker 2 (pid: 16929, cores: 2)
+spawned uWSGI worker 3 (pid: 16931, cores: 2)
+spawned uWSGI worker 4 (pid: 16932, cores: 2)
+[pid: 16929|app: 0|req: 1/1] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 07:26:25 2018] POST /weixin/ => generated 2 bytes in 214 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+TD课代表.
+L-
+备尘埃
+L-
+TD妞
+L-
+damo
+L-
+渐行渐远渐无书
+L-
+{}
+[pid: 16932|app: 0|req: 1/2] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:26:23 2018] POST /kick/ => generated 0 bytes in 1792 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+TD课代表.
+L-
+备尘埃
+L-
+TD妞
+L-
+damo
+L-
+渐行渐远渐无书
+L-
+{}
+[pid: 16932|app: 0|req: 2/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:28:17 2018] POST /kick/ => generated 0 bytes in 1579 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 16932|app: 0|req: 3/4] 121.41.100.111 () {46 vars in 791 bytes} [Thu May  3 07:28:21 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+L-
+L-
+TD课代表.
+L-
+L-
+L-
+备尘埃
+L-
+TD妞
+L-
+damo
+L-
+渐行渐远渐无书
+L-
+{'0D71190260F0FE31D33A0A23B89DFC42': 'L-,http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132', '8DFBC045C33A3AAE3C2C77108C1D802A': 'L-,http://wx.qlogo.cn/mmhead/ver_1/0dFJGnFDiacibqvhGiaqmqOUmRByg6UedSdY6TtsUXn7uwPrXkgXM6JONIChDR0zjDYBVXzrJDJAH9pVAd9GTzCUtMEByrbTK0GQQNWycdBF6s/132'}
+[pid: 16931|app: 0|req: 1/5] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:29:09 2018] POST /kick/ => generated 64 bytes in 1850 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 16931|app: 0|req: 2/6] 121.41.100.111 () {46 vars in 791 bytes} [Thu May  3 07:29:11 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+{}
+[pid: 16932|app: 0|req: 4/7] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:30:37 2018] POST /kick/ => generated 0 bytes in 1585 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 16932|app: 0|req: 5/8] 121.41.100.111 () {46 vars in 791 bytes} [Thu May  3 07:30:39 2018] POST /weixin/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 07:51:05 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:51:05 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:51:05 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:51:05 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:51:05 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:51:05 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:51:05 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:51:05 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 15:51:11 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x26e8aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x26e8aa0 pid: 18060 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18060)
+spawned uWSGI worker 1 (pid: 18062, cores: 2)
+spawned uWSGI worker 2 (pid: 18063, cores: 2)
+spawned uWSGI worker 3 (pid: 18065, cores: 2)
+spawned uWSGI worker 4 (pid: 18066, cores: 2)
+{}
+[pid: 18066|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:51:14 2018] POST /kick/ => generated 0 bytes in 1357 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Internal Server Error: /weixin/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 298, in weixin
+    redis_.sadd("weixinuserinfo",userinfo)
+UnboundLocalError: local variable 'userinfo' referenced before assignment
+[pid: 18063|app: 0|req: 1/2] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 07:51:19 2018] POST /weixin/ => generated 73036 bytes in 238 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Thu May  3 07:53:03 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:53:03 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:53:03 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:53:03 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:53:03 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:53:03 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:53:03 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:53:03 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 15:53:05 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x10adaa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x10adaa0 pid: 18161 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18161)
+spawned uWSGI worker 1 (pid: 18164, cores: 2)
+spawned uWSGI worker 2 (pid: 18165, cores: 2)
+spawned uWSGI worker 3 (pid: 18167, cores: 2)
+spawned uWSGI worker 4 (pid: 18168, cores: 2)
+{}
+[pid: 18168|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:53:08 2018] POST /kick/ => generated 0 bytes in 1315 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 18167|app: 0|req: 1/2] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 07:53:10 2018] POST /weixin/ => generated 2 bytes in 210 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+L-i
+L-
+TD妞
+L-
+L-
+L-
+Internal Server Error: /kick/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 339, in kick
+    vcSerialNo = line.split(",")[1]
+TypeError: a bytes-like object is required, not 'str'
+[pid: 18168|app: 0|req: 2/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:54:12 2018] POST /kick/ => generated 60526 bytes in 1100 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 18167|app: 0|req: 2/4] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 07:54:13 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 07:55:53 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:55:53 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:55:53 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:55:53 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:55:53 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:55:53 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:55:53 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:55:53 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 15:55:54 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x186caa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x186caa0 pid: 18320 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18320)
+spawned uWSGI worker 1 (pid: 18323, cores: 2)
+spawned uWSGI worker 2 (pid: 18324, cores: 2)
+spawned uWSGI worker 3 (pid: 18326, cores: 2)
+spawned uWSGI worker 4 (pid: 18327, cores: 2)
+L-i
+L-
+渐行渐远渐无书
+L-
+备尘埃
+L-
+TD课代表.
+L-
+TD妞
+L-
+L-
+L-
+Internal Server Error: /kick/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./kaoweitongapp/views.py", line 340, in kick
+    temp_dict[vcSerialNo] = "%s,%s"%(NickName,line.split(",")[2])
+TypeError: a bytes-like object is required, not 'str'
+[pid: 18327|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:55:57 2018] POST /kick/ => generated 60766 bytes in 1404 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 18327|app: 0|req: 2/2] 123.57.15.19 () {46 vars in 789 bytes} [Thu May  3 07:56:02 2018] POST /weixin/ => generated 2 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 07:56:49 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:56:49 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:56:49 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:56:49 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:56:49 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:56:49 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:56:49 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 07:56:49 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 15:57:05 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0xcedaa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xcedaa0 pid: 18404 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18404)
+spawned uWSGI worker 1 (pid: 18406, cores: 2)
+spawned uWSGI worker 2 (pid: 18407, cores: 2)
+spawned uWSGI worker 3 (pid: 18408, cores: 2)
+spawned uWSGI worker 4 (pid: 18410, cores: 2)
+L-i
+L-
+L-
+L-
+备尘埃
+L-
+TD课代表.
+L-
+渐行渐远渐无书
+L-
+damo
+L-
+TD妞
+L-
+{'0D71190260F0FE31D33A0A23B89DFC42': 'L-,http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132'}
+[pid: 18410|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:57:08 2018] POST /kick/ => generated 48 bytes in 1382 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 18410|app: 0|req: 2/2] 114.55.236.33 () {46 vars in 790 bytes} [Thu May  3 07:57:10 2018] POST /weixin/ => generated 2 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+{}
+[pid: 18408|app: 0|req: 1/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 07:59:29 2018] POST /kick/ => generated 0 bytes in 1289 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 18407|app: 0|req: 1/4] 123.57.15.19 () {46 vars in 789 bytes} [Thu May  3 07:59:34 2018] POST /weixin/ => generated 2 bytes in 213 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+{}
+[pid: 18408|app: 0|req: 2/5] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:04:05 2018] POST /kick/ => generated 0 bytes in 1097 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 18410|app: 0|req: 3/6] 120.27.211.131 () {46 vars in 791 bytes} [Thu May  3 08:04:09 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 08:04:43 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:04:43 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:04:43 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:04:43 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:04:43 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:04:43 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:04:43 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:04:44 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 16:04:45 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x14f6aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x14f6aa0 pid: 19503 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19503)
+spawned uWSGI worker 1 (pid: 19505, cores: 2)
+spawned uWSGI worker 2 (pid: 19506, cores: 2)
+spawned uWSGI worker 3 (pid: 19508, cores: 2)
+spawned uWSGI worker 4 (pid: 19509, cores: 2)
+[pid: 19509|app: 0|req: 1/1] 120.26.130.50 () {46 vars in 790 bytes} [Thu May  3 08:04:51 2018] POST /weixin/ => generated 2 bytes in 211 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+TD课代表.
+L-
+TD妞
+L-
+渐行渐远渐无书
+L-
+L-
+L-
+L-i
+L-
+damo
+L-
+备尘埃
+L-
+{'0D71190260F0FE31D33A0A23B89DFC42': 'L-,http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132'}
+[pid: 19508|app: 0|req: 1/2] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:04:50 2018] POST /kick/ => generated 48 bytes in 4325 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+TD课代表.
+L-
+TD妞
+L-
+渐行渐远渐无书
+L-
+L-
+L-
+L-i
+L-
+damo
+L-
+备尘埃
+L-
+{'0D71190260F0FE31D33A0A23B89DFC42': 'L-,http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132'}
+[pid: 19509|app: 0|req: 2/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:06:42 2018] POST /kick/ => generated 48 bytes in 2169 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 19509|app: 0|req: 3/4] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 08:06:45 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+TD课代表.
+L-
+TD妞
+L-
+渐行渐远渐无书
+L-
+L-i
+L-
+L-
+L-
+damo
+L-
+备尘埃
+L-
+{'0D71190260F0FE31D33A0A23B89DFC42': 'L-,http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132'}
+[pid: 19509|app: 0|req: 4/5] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:10:28 2018] POST /kick/ => generated 48 bytes in 2183 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 19509|app: 0|req: 5/6] 120.26.130.50 () {46 vars in 790 bytes} [Thu May  3 08:10:32 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+{}
+[pid: 19509|app: 0|req: 6/7] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:14:27 2018] POST /kick/ => generated 0 bytes in 2081 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 19509|app: 0|req: 7/8] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 08:14:31 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 19509|app: 0|req: 9/9] 121.41.100.111 () {46 vars in 791 bytes} [Thu May  3 08:14:40 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+TD课代表.
+L-
+TD妞
+L-
+渐行渐远渐无书
+L-
+L-i
+L-
+L-
+L-
+damo
+L-
+备尘埃
+L-
+{'0D71190260F0FE31D33A0A23B89DFC42': 'L-,http://wx.qlogo.cn/mmhead/ver_1/HdJ5QuFcynVP6XeIp4s0F0bJmtWjVVN82icx0bc1OOvZol3OoubN5usMgIF4Akf0u2OxUGFk6FMc0XbUVWuhO2A/132'}
+[pid: 19509|app: 0|req: 9/10] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:14:39 2018] POST /kick/ => generated 48 bytes in 2191 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+Thu May  3 08:17:43 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:17:43 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:17:43 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:17:43 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:17:43 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:17:43 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:17:43 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:17:43 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 16:17:44 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x16baaa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16baaa0 pid: 25334 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25334)
+spawned uWSGI worker 1 (pid: 25336, cores: 2)
+spawned uWSGI worker 2 (pid: 25337, cores: 2)
+spawned uWSGI worker 3 (pid: 25339, cores: 2)
+spawned uWSGI worker 4 (pid: 25340, cores: 2)
+{}
+[pid: 25339|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:17:47 2018] POST /kick/ => generated 0 bytes in 2303 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 25340|app: 0|req: 1/2] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 08:17:52 2018] POST /weixin/ => generated 2 bytes in 213 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+l
+L-
+{}
+[pid: 25340|app: 0|req: 2/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:21:07 2018] POST /kick/ => generated 0 bytes in 2090 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 25340|app: 0|req: 3/4] 114.55.236.33 () {46 vars in 790 bytes} [Thu May  3 08:21:12 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Thu May  3 08:25:33 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:25:33 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:25:33 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:25:33 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:25:33 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:25:33 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:25:33 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:25:33 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 16:25:35 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x2873aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2873aa0 pid: 25698 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25698)
+spawned uWSGI worker 1 (pid: 25700, cores: 2)
+spawned uWSGI worker 2 (pid: 25701, cores: 2)
+spawned uWSGI worker 3 (pid: 25703, cores: 2)
+spawned uWSGI worker 4 (pid: 25704, cores: 2)
+TD妞
+L-
+l
+L-
+备尘埃
+L-
+渐行渐远渐无书
+L-
+L-i
+L-
+L-
+L-
+TD课代表.
+L-
+damo
+L-
+[pid: 25701|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:25:38 2018] POST /kick/ => generated 159 bytes in 294 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 25701|app: 0|req: 2/2] 121.41.100.111 () {46 vars in 791 bytes} [Thu May  3 08:25:43 2018] POST /weixin/ => generated 2 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 08:29:49 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:29:49 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:29:49 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:29:49 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:29:49 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:29:49 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:29:49 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:29:49 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 16:29:51 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x2a26aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2a26aa0 pid: 25905 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25905)
+spawned uWSGI worker 1 (pid: 25907, cores: 2)
+spawned uWSGI worker 2 (pid: 25908, cores: 2)
+spawned uWSGI worker 3 (pid: 25910, cores: 2)
+spawned uWSGI worker 4 (pid: 25911, cores: 2)
+l
+L-
+damo
+L-
+渐行渐远渐无书
+L-
+L-
+L-
+备尘埃
+L-
+TD课代表.
+L-
+TD妞
+L-
+L-i
+L-
+[pid: 25911|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:29:54 2018] POST /kick/ => generated 199 bytes in 303 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 25911|app: 0|req: 2/2] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 08:29:59 2018] POST /weixin/ => generated 2 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 25911|app: 0|req: 3/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:34:46 2018] POST /kick/ => generated 2 bytes in 97 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+[pid: 25911|app: 0|req: 4/4] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 08:34:51 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 08:38:05 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:38:05 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:38:05 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:38:05 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:38:05 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:38:05 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:38:05 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:38:05 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 16:38:06 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1d95aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d95aa0 pid: 26298 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26298)
+spawned uWSGI worker 1 (pid: 26300, cores: 2)
+spawned uWSGI worker 2 (pid: 26301, cores: 2)
+spawned uWSGI worker 3 (pid: 26303, cores: 2)
+spawned uWSGI worker 4 (pid: 26304, cores: 2)
+[pid: 26304|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:38:09 2018] POST /kick/ => generated 2 bytes in 1407 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+[pid: 26301|app: 0|req: 1/2] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 08:38:14 2018] POST /weixin/ => generated 2 bytes in 211 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 26304|app: 0|req: 2/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:51:16 2018] POST /kick/ => generated 2 bytes in 1080 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 1)
+[pid: 26304|app: 0|req: 3/4] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 08:51:20 2018] POST /weixin/ => generated 2 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Not Found: /
+[pid: 26304|app: 0|req: 4/5] 112.194.214.112 () {38 vars in 576 bytes} [Thu May  3 08:58:21 2018] HEAD / => generated 3014 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Thu May  3 08:59:30 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:59:30 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:59:30 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:59:30 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:59:30 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:59:30 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:59:30 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 08:59:30 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 16:59:31 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1ac0aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1ac0aa0 pid: 28866 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28866)
+spawned uWSGI worker 1 (pid: 28868, cores: 2)
+spawned uWSGI worker 2 (pid: 28869, cores: 2)
+spawned uWSGI worker 3 (pid: 28871, cores: 2)
+spawned uWSGI worker 4 (pid: 28872, cores: 2)
+[pid: 28869|app: 0|req: 1/1] 120.26.131.11 () {46 vars in 790 bytes} [Thu May  3 08:59:39 2018] POST /weixin/ => generated 2 bytes in 210 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+TD课代表.
+L-
+L-
+L-
+备尘埃
+L-
+damo
+L-
+L-
+L-
+渐行渐远渐无书
+L-
+TD妞
+L-
+[pid: 28871|app: 0|req: 1/2] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 08:59:34 2018] POST /kick/ => generated 425 bytes in 5393 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 28872|app: 0|req: 1/3] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 09:04:07 2018] POST /weixin/ => generated 2 bytes in 212 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+TD课代表.
+L-
+L-
+L-
+备尘埃
+L-
+damo
+L-
+L-
+L-
+渐行渐远渐无书
+L-
+TD妞
+L-
+[pid: 28869|app: 0|req: 2/4] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 09:04:03 2018] POST /kick/ => generated 425 bytes in 5102 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 28872|app: 0|req: 3/5] 114.55.236.33 () {46 vars in 790 bytes} [Thu May  3 09:07:22 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+TD课代表.
+L-
+L-
+L-
+备尘埃
+L-
+damo
+L-
+L-
+L-
+渐行渐远渐无书
+L-
+TD妞
+L-
+[pid: 28872|app: 0|req: 3/6] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 09:07:17 2018] POST /kick/ => generated 425 bytes in 5084 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 17:12:57 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 28872|app: 0|req: 5/7] 120.26.131.11 () {46 vars in 790 bytes} [Thu May  3 09:13:07 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+TD课代表.
+L-
+L-
+L-
+备尘埃
+L-
+damo
+L-
+L-
+L-
+渐行渐远渐无书
+L-
+TD妞
+L-
+[pid: 28872|app: 0|req: 5/8] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 09:13:02 2018] POST /kick/ => generated 425 bytes in 5088 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+Thu May  3 09:33:34 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 09:33:34 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 09:33:34 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 09:33:34 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 09:33:34 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 09:33:34 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 09:33:34 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 09:33:34 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 17:33:35 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1b05aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1b05aa0 pid: 1964 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1964)
+spawned uWSGI worker 1 (pid: 1966, cores: 2)
+spawned uWSGI worker 2 (pid: 1967, cores: 2)
+spawned uWSGI worker 3 (pid: 1969, cores: 2)
+spawned uWSGI worker 4 (pid: 1970, cores: 2)
+[pid: 1970|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 09:33:39 2018] POST /kick/ => generated 18 bytes in 466 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 1970|app: 0|req: 2/2] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 09:33:44 2018] POST /weixin/ => generated 2 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 1970|app: 0|req: 3/3] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 09:38:23 2018] POST /kick/ => generated 18 bytes in 93 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 1970|app: 0|req: 4/4] 120.26.131.11 () {46 vars in 790 bytes} [Thu May  3 09:38:27 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 1970|app: 0|req: 5/5] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 09:40:22 2018] POST /kick/ => generated 18 bytes in 81 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 1970|app: 0|req: 6/6] 120.26.131.11 () {46 vars in 790 bytes} [Thu May  3 09:40:23 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+Thu May  3 10:01:25 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 10:01:25 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 10:01:25 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 10:01:25 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 10:01:25 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 10:01:25 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 10:01:25 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 10:01:25 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 18:01:34 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 26 April 2018 08:42:39
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /www/wwwroot/kaoweitong_spider
+writing pidfile to uwsgi.pid
+detected binary path: /user/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/wwwroot/kaoweitong_spider
+your processes number limit is 15087
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Apr 26 2018, 16:16:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1d14aa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /user/local/python3/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d14aa0 pid: 3434 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3434)
+spawned uWSGI worker 1 (pid: 3436, cores: 2)
+spawned uWSGI worker 2 (pid: 3437, cores: 2)
+spawned uWSGI worker 3 (pid: 3439, cores: 2)
+spawned uWSGI worker 4 (pid: 3440, cores: 2)
+Internal Server Error: /kick/
+Traceback (most recent call last):
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/user/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/user/local/python3/lib/python3.6/site-packages/django/urls/resolvers.py", line 494, in resolve
+    for pattern in self.url_patterns:
+  File "/user/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/user/local/python3/lib/python3.6/site-packages/django/urls/resolvers.py", line 536, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/user/local/python3/lib/python3.6/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/user/local/python3/lib/python3.6/site-packages/django/urls/resolvers.py", line 529, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/user/local/python3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./kaoweitong_spider/urls.py", line 22, in <module>
+    path('', include('kaoweitongapp.urls')),
+  File "/user/local/python3/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/user/local/python3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./kaoweitongapp/urls.py", line 2, in <module>
+    from . import views
+  File "./kaoweitongapp/views.py", line 20, in <module>
+    from .tasks import check_neea,weixininfo
+  File "./kaoweitongapp/tasks.py", line 130
+    self.sr.del(key)
+              ^
+SyntaxError: invalid syntax
+[pid: 3439|app: 0|req: 1/1] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 10:01:39 2018] POST /kick/ => generated 155884 bytes in 152 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 3439|app: 0|req: 2/2] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 10:03:13 2018] POST /kick/ => generated 18 bytes in 244 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 3439|app: 0|req: 3/3] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 10:03:18 2018] POST /weixin/ => generated 2 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3439|app: 0|req: 4/4] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 10:05:38 2018] POST /kick/ => generated 18 bytes in 83 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 3439|app: 0|req: 5/5] 120.26.130.50 () {46 vars in 790 bytes} [Thu May  3 10:05:41 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3439|app: 0|req: 6/6] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 10:08:20 2018] POST /kick/ => generated 18 bytes in 100 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 3440|app: 0|req: 1/7] 121.40.220.144 () {46 vars in 791 bytes} [Thu May  3 10:08:25 2018] POST /weixin/ => generated 2 bytes in 216 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3439|app: 0|req: 7/8] 221.221.96.12 () {44 vars in 758 bytes} [Thu May  3 10:09:08 2018] POST /kicking/ => generated 48 bytes in 91 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3439|app: 0|req: 8/9] 221.221.96.12 () {44 vars in 758 bytes} [Thu May  3 10:09:25 2018] POST /kicking/ => generated 48 bytes in 85 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 3439|app: 0|req: 9/10] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 10:16:17 2018] POST /kick/ => generated 18 bytes in 82 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3439|app: 0|req: 10/11] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 10:16:21 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 3439|app: 0|req: 11/12] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 10:24:38 2018] POST /kick/ => generated 18 bytes in 78 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3439|app: 0|req: 12/13] 121.41.99.110 () {46 vars in 790 bytes} [Thu May  3 10:24:43 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 1)
+[pid: 3437|app: 0|req: 1/14] 221.221.96.12 () {44 vars in 752 bytes} [Thu May  3 10:30:34 2018] POST /kick/ => generated 18 bytes in 333 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3439|app: 0|req: 13/15] 114.215.191.143 () {46 vars in 792 bytes} [Thu May  3 10:30:38 2018] POST /weixin/ => generated 2 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Not Found: /
+[pid: 3439|app: 0|req: 14/16] 123.56.41.200 () {38 vars in 574 bytes} [Thu May  3 14:21:13 2018] HEAD / => generated 3169 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)

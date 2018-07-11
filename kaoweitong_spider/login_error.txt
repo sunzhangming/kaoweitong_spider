@@ -1,0 +1,176 @@
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312"><title>教育部考试中心托福网考网上报名 - 登录</title>
+   <link href="/css/CBSR_IMC.css" rel="stylesheet" type="text/css">
+   <link href="/css/styles.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body onLoad="window.focus();">
+<!-- Start of DoubleClick Spotlight Tag: Please do not remove-->
+<!-- Activity Name for this tag is:NEAA: Sign up to Create Personalized Profile, Chinese -->
+<!-- Web site URL where tag should be placed: http://toefl4.etest.net.cn/cn -->
+<!-- This tag must be placed within the opening <body> tag, as close to the beginning of it as possible-->
+<!-- Creation Date:10/24/08 -->
+<script src="/js/jquery-1.4.2.min.js"></script>
+<script src="/js/md5.js"></script>
+<SCRIPT language="JavaScript">
+var axel = Math.random()+"";
+var a = axel * 10000000000000;
+document.write('<IFRAME SRC="http://fls.doubleclick.net/activityi;src=1559855;type=china071;cat=neaac845;ord=1;num='+ a + '?" WIDTH=1 HEIGHT=1 FRAMEBORDER=0></IFRAME>');
+    
+	
+$(document).ready(function() {
+   
+   function getimg(){
+    var myDate = new Date();
+    var a=myDate.getTime();
+	delete myDate;
+
+	 $("#imgVerifycode").attr("src","/cn/"+a+Math.random()+"VerifyCode3.jpg");						  
+   }
+
+
+var getimged = 0;						  
+	
+   $("#input_vcode").focus(function(){  
+     if (getimged == 0) 
+	{
+	  getimg(); 
+	  $("#imgVerifycode").show();
+	 } //焦点进入生成验证码只执行一次
+	 getimged =1; 
+   })
+   	
+  $("#a_changeone").click(function(){    
+	getimg();			  
+	$("#imgVerifycode").show();
+	getimged =1; 
+   })
+
+   $("#id_login").click(function(){    
+	   var s = $.md5($("#id_pwd").val()+$("#id_username").val());
+	   $("#id_pwd").val($.md5(s+$("#input_vcode").val().toLowerCase()));
+	   //$("#id_LoginForm").submit();
+   })	
+	
+	
+  	//getimg();					   
+})
+</SCRIPT>
+<NOSCRIPT>
+<IFRAME SRC="http://fls.doubleclick.net/activityi;src=1559855;type=china071;cat=neaac845;ord=1;num=1?" WIDTH=1 HEIGHT=1 FRAMEBORDER=0></IFRAME>
+</NOSCRIPT>
+<!-- End of DoubleClick Spotlight Tag: Please do not remove-->
+<table border="0" cellpadding="0" cellspacing="0" width="840">
+  <tr>
+    <td><table style="font-size:12px; font-weight:bold" align="right" cellpadding="0" cellspacing="0"><tr><td><img src="/images/Toefl_iBT_Banner.jpg" border="0"></td></tr><tr><td align="right" height="30">
+    登录 | 
+	<a href="/cn/Information">考生须知</a> | <a href="/cn/FAQ">常见问题解答</a> | <a href="http://www.ets.org/toefl/" target="_blank">ETS TOEFL 网站</a> | <a href="http://www.etest.edu.cn/" target="_blank">返回首页</a>  | <a href="/cn/ContactUs">联系我们</a> | <a href="/en/TOEFLAPP?username=None&__act=__id.24.TOEFLAPP.appadp.actLogin&password=322854e481ccf47e06e1a8cd88b5f2e9&LoginCode=kfet&btn_submit.x=0&btn_submit.y=0">English Version</a></td></tr></table>
+  
+</td>
+  </tr>
+</table>
+<div id="container" style="width:800">
+  <div id="maincontent" style="width:680"> <span class="Alert"><table cellpadding="0" cellspacing="1"><tr><td><table border="1"  cellspacing="0" bordercolor="#0000FF" bgcolor="#EEEEEE" style="border-collapse: collapse">  <tr><td><table cellpadding="1">  <tr valign="top"><td><img src="/images/stop16.gif"></td><td><b><font size="2">&nbsp;NEEAID is incorrect. NEEA用户ID不正确&nbsp;</font></b></td></tr></table></td></tr></table></td><td width="10">&nbsp;</td></tr></table></span> <br>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td class="BorderCell"><table border="0" cellpadding="0" cellspacing="0" rules="none" width="98%">
+            <tr>
+              <td width="47%" valign="top"><h3>登录</h3>
+                <br>
+                请输入您的NEEA用户ID和密码登录。<br>
+                
+				<table border="0" cellpadding="0" cellspacing="0">
+				 <tr align="left" valign="top">
+              <td height="116" valign="top"><form  name="LoginForm" id="id_LoginForm" method="post" action="/cn/TOEFLAPP">
+<table width="100%" border="0" cellpadding="0" cellspacing="2" bgcolor="#ffffff">
+      <tr> 
+        <td width="83"> NEEA用户ID: </td>
+        <td width="115"> <input id="id_username" name="username" size="16" value="" type="text"></td>
+        <td><input type="hidden" name="__act" value="__id.24.TOEFLAPP.appadp.actLogin"></td>
+      </tr>
+      <tr> 
+        <td> 密码: </td>
+        <td> <input name="password" id="id_pwd" size="16" value="" type="password"> </td>
+        <td> </td>
+      </tr>
+	  <tr> 
+        <td> 验证码: </td>
+        <td> <input type="text" id="input_vcode" name="LoginCode" width="20px" size="5" />&nbsp;&nbsp;<span id="a_changeone" style="cursor:pointer; text-decoration:underline">看不清？</span></td>
+        <td><input id="id_login" name="btn_submit" type="image" src="/images/go_button.gif"> </td>
+      </tr>
+	  <tr><td></td><td colspan="2" align="left"><img id="imgVerifycode" style="display:none"/></td></tr>
+	  <tr> <td  colspan="2" height="1px" style="background-color:#CCCCCC"></td><td></td></tr>
+    </table>
+</form>
+                <p><img src="/images/new_user_cn.gif" usemap="#Map" border="0" height="128" width="186">
+                  <map name="Map">
+                    <area shape="rect" coords="90,93,164,116" href="/cn/CreateProfile">
+                  </map>
+                </p>
+                <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="3" rules="none">
+                  <tr>
+                    <td width="120"><a href="/cn/FindUserID"><img src="/images/user_name_assist_button_cn.gif" border="0" height="17" width="119"></a></td>
+                    <td width="3">&nbsp;</td>
+                    <td><a href="/cn/PasswordAssist"><img src="/images/password_asst_button_cn.gif" border="0" height="17"></a></td>
+                  </tr>
+                </table>
+                <br>
+                忘记您的NEEA用户ID？请点击“找回NEEA用户ID”。 <br>
+                忘记密码？请点击“找回密码”重设密码。<br>
+                <p>&nbsp; </p></td>
+            </tr>
+				</table>
+              </td>
+              <td width="1" rowspan="2" bgcolor="#CCCCCC"></td>
+              <td width="53%" rowspan="2" align="left" valign="top"><table width="96%" border="0" cellpadding="0" cellspacing="0" style="margin-left:12px">
+                  <tr>
+                    <td><h3>公告</h3><br></td>
+                  </tr>
+                  <tr>
+                    <td><table cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                         <td style="text-indent:25px; text-align:justify;text-justify:inter-ideograph">请考生在报名前务必仔细阅读托福考试相关服务条款和规定。</td>
+                        </tr>
+                        <tr>
+                          <td style="text-indent:25px; text-align:justify;text-justify:inter-ideograph">重要提醒事项：1.自2013年1月托福考试起，考试日到达考点报到时间提前到上午8:30。晚于上午8：30到场将被拒绝入场。请考生根据本网提供的考场地址，提前了解所报考场周边交通情况，妥善安排考试日交通，避免迟到；</td>
+                        </tr>
+<tr>
+                          <td style="text-indent:25px; text-align:justify;text-justify:inter-ideograph">2.托福考试要求中国大陆考生必须持二代身份证原件并经过核验后才能参加考试。为避免因身份证原因不能通过核验影响如期考试，请考生提前检查所持二代身份证是否有破损、电子芯片失效、过期等问题。未办理二代身份证的考生，特别是未成年考生，请先到户籍所在派出所办理二代身份证，再进行托福考试报名。</tr>
+<tr>
+                          <td style="text-indent:25px; text-align:justify;text-justify:inter-ideograph">3.考生报名时提交的个人邮寄地址（包括中文和英文）将被用于向考生邮寄重要通知和考试成绩，请慎重准确填写。</tr>
+                        <tr>
+                          <td align="right">教育部考试中心海外考试报名信息网</td>
+                        </tr>
+                      </table></td>
+                  </tr>
+                  <tr>
+                    <td><br>
+                      
+	<iframe width="350" height="320" frameborder="0" id="iframeNews"
+						scrolling="auto" src='https://news.etest.net.cn/TOEFL/1/newslist.htm'>
+
+</iframe>
+
+</td>
+                  </tr>
+                </table></td>
+            </tr>
+ 
+          </table></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div id="footer">
+        <p>ETS, the ETS logo, TOEFL, GRE and [OTHERS (if indicated in the Territory)], are the Trademarks of Educational Testing Service, Princeton, New Jersey, U.S.A. <br>
+    and are used in the People's Republic of China by the National Education Examination 
+    Authority pursuant to a license from Educational Testing Service.</p>
+	  	 <P>Copyright &copy; 2006 教育部考试中心版权所有. 保留所有权利.
+</P>
+</div>
+
+</body>
+</html>

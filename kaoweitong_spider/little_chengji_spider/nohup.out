@@ -1,0 +1,36 @@
+2017-03-25
+balance: 184030
+2018-04-27 17:14:51密码不正确或验证码获取有误
+balance: 184020
+2018-04-27 17:15:02密码不正确或验证码获取有误
+balance: 184010
+2018-04-27 17:15:07密码不正确或验证码获取有误
+balance: 184000
+{'openid': 'testtest2', 'test_date': '2017-03-25', 'result': {'reading': 27, 'listening': 23, 'speaking': 17, 'writing': 21}}
+Traceback (most recent call last):
+  File "chengji_son.py", line 339, in <module>
+    query(mysql, query_l[1], query_l[2], query_l[3],query_l[8])
+  File "chengji_son.py", line 328, in query
+    main2(mysql, openid, neea, neea_pwd, test_date)
+  File "chengji_son.py", line 266, in main2
+    status = tuoful.loginin()
+  File "chengji_son.py", line 203, in loginin
+    self.mysql.update_result(result, self.openid)
+  File "chengji_son.py", line 76, in update_result
+    sql="update spider_chengji set isFinished=1 , updated_time = '%s', reading = %d, listening = %d , speaking = %d, writing = %d  where openid = %s and test_date = '%s';" % (now, result["reading"], result["listening"], result["speaking"], result["writing"],openid,result["test_date"]) 
+KeyError: 'reading'
+2017-03-25
+balance: 183960
+{'openid': 'testtest2', 'test_date': '2017-03-25', 'result': {'reading': 27, 'listening': 23, 'speaking': 17, 'writing': 21}}
+Traceback (most recent call last):
+  File "chengji_son.py", line 339, in <module>
+    query(mysql, query_l[1], query_l[2], query_l[3],query_l[8])
+  File "chengji_son.py", line 328, in query
+    main2(mysql, openid, neea, neea_pwd, test_date)
+  File "chengji_son.py", line 262, in main2
+    status = tuoful.loginin()
+  File "chengji_son.py", line 203, in loginin
+    self.mysql.update_result(result, self.openid)
+  File "chengji_son.py", line 76, in update_result
+    sql="update spider_chengji set isFinished=1 , updated_time = '%s', reading = %d, listening = %d , speaking = %d, writing = %d  where openid = %s and test_date = '%s';" % (now, result["reading"], result["listening"], result["speaking"], result["writing"],openid,result["test_date"]) 
+KeyError: 'reading'

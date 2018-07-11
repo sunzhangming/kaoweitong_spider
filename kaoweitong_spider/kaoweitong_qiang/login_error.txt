@@ -1,0 +1,34 @@
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312"><title>教育部考试中心托福网考网上报名 - 错误</title>
+   <link href="/css/CBSR_IMC.css" rel="stylesheet" type="text/css">
+   <link href="/css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body onLoad="window.focus()">
+<div id="masthead">
+  <p><img src="/images/Toefl_iBT_Banner.jpg" border="0">  </p>
+  <p style="margin-top: 8px;" align="right"> 
+    <a href="/cn">登录</a> | 
+	<a href="/cn/Information">考生须知</a>  | <a href="http://www.ets.org/toefl/" target="_blank">ETS TOEFL 网站</a> | <a href="http://www.etest.edu.cn/" target="_blank">返回首页</a>  | <a href="/cn/ContactUs">联系我们</a> | <a href="/en">English Version</a></p>
+</div>
+  
+<div id="container">
+  <div id="maincontent">
+    <h3>发生错误</h3><p>
+    <span class="Alert">
+
+
+Access violation at address 77D92751 in module 'ntdll.dll'. Read of address 00000008
+
+</span><p></div>
+</div>
+<div id="footer">
+        <p>ETS, the ETS logo, TOEFL, GRE and [OTHERS (if indicated in the Territory)], are the Trademarks of Educational Testing Service, Princeton, New Jersey, U.S.A. <br>
+    and are used in the People's Republic of China by the National Education Examination 
+    Authority pursuant to a license from Educational Testing Service.</p>
+	  	 <P>Copyright &copy; 2006 教育部考试中心版权所有. 保留所有权利.
+          <font color="#333333" style="font-size:9px;FONT-FAMILY:Arial;"> Supported 
+          By <a style="text-decoration: none;font-size:9px;FONT-FAMILY:Arial; color:#333333" target="_blank" href="http://www.vanisoft.com">VaniSoft&reg;</a>
+          </font></P>
+</div>
+  </body></html>
